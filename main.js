@@ -13,7 +13,11 @@ function hitungKPM(jumlahKataBacaan, waktuMembaca) {
 
 async function main() {
   try {
-    // Panggil fungsi fetchData untuk mendapatkan data mahasiswa
+    /*
+     - di bawah ini ada totalSoal yang diisi dengan 5 soal
+     - jumlah teks dalam bacaannya berjumlah 500 kata
+     - totalKPM nya mempunyai nilai awal 0
+    */
     console.log(mahasiswa);
     let totalSoal = 5;
     let jumlahKataBacaan = 500;
@@ -30,10 +34,10 @@ async function main() {
         totalSoal
       );
 
-      // console.table(persentasePemahaman);
       const kpm = hitungKPM(jumlahKataBacaan, mhs.waktuMembaca);
       totalKPM += parseFloat(kpm);
 
+      //menampilkan data menggunakan table pada console
       console.table({
         Mahasiswa: i + 1,
         "Persentase Pemahaman": persentasePemahaman + "%",
