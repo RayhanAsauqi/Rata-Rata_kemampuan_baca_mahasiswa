@@ -6,7 +6,7 @@ Program ini bertujuan untuk menghitung beberapa metrik terkait kemampuan membaca
 
 ## Struktur Proyek
 
-- `lib.js`: File ini mengandung data mahasiswa yang akan digunakan dalam perhitungan.
+- `lib.js`: File ini mengandung data mahasiswa yang akan digunakan dalam perhitungan data ini bersifat dummy data, hanya menjelaskan bagaimana case ketika total sampel yang di ambil di olah.
 - `main.js`: File utama yang mengandung logika program untuk menghitung metrik-metrik yang diinginkan.
 
 ## Instalasi
