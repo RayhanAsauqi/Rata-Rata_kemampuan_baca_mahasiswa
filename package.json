@@ -1,0 +1,12 @@
+{
+  "name": "program_hitung_rata_rata_kemampuan_baca",
+  "version": "1.0.0",
+  "description": "Program ini bertujuan untuk menghitung beberapa metrik terkait kemampuan membaca mahasiswa, seperti persentase pemahaman (dari jawaban benar) dan kecepatan membaca dalam KPM (Kata per Menit). Hasil akhirnya mencakup rata-rata persentase pemahaman, rata-rata KPM, dan rata-rata kemampuan baca untuk sampel mahasiswa yang diberikan.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rayhan",
+  "license": "ISC"
+}
